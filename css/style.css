@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    background:darkslategray;
+}
+
+.cardPosition{
+    width: 800px;
+    height: 600px;
+}
+
+
+.userCard{
+    
+    width: 100%;
+    height: 500px;
+    min-width: 220px;
+    max-width: 400px;
+    background-color: white;
+    margin: 20px;
+    color: black;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+
+.backgroundImage > img{
+    width: 100%;
+    height: inherit;
+    object-fit: contain;
+}
+
+.userImageContainer{
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 8px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: -170px;
+    
+
+}
+
+div.userImageContainer > img{
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+
+}
+
+.userInfoContainer{
+    text-align: center;
+    margin-top: -170px;
+    }
+
+.userFullName{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.userAddress{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.userInfo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+
+.userSocialMediaContainer{
+    text-align: center;
+}
+
+.userSocialMediaItem{
+    display: inline-block;
+    margin: 10px;
+}
+
+.fb, .tw, .ln{
+    width: 25px;
+    height: 25px;
+}
